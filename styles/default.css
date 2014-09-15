@@ -29,10 +29,12 @@ span.k-tooltip {
     display: inline-block;
     vertical-align: top;
     width: 200px;
-    
+
     text-align: left;
     margin: 0 0 0 0;
 }
+
+
 
 .centeredImage
 {
@@ -55,10 +57,69 @@ span.k-tooltip {
     width: 700px;
     margin: 0 auto;
 }
- #left-pane, #right-pane  { background-color: rgba(60, 70, 80, 0.05); }
+#left-pane, #right-pane  { background-color: rgba(60, 70, 80, 0.05); }
 
 .pane-content {
     padding: 0 10px;
     background-color: transparent;
-    
+
+}
+
+
+#treeview-employee-right,
+#treeview-employee-left
+{
+    float: left;
+    width: 220px;
+    overflow: visible;
+}
+.demo-section-tree-employee{
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.demo-section-tree-employee:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: none;
+    visibility: hidden;
+}
+
+.forms li > * {
+    vertical-align: top;
+    width: 200px;
+}
+
+.demo-section-xx {
+    min-width: 800px;
+    display: block;
+    width: 800px;
+    text-align: left;
+    margin: 0 0 0 0;
+
+}
+
+.box-col{
+    min-width: 400px;
+    width: 400px;
+
+}
+#splitter{
+    position: fixed;
+    width:100%;
+    height:100%;
+
+}
+
+#grid .k-grid-toolbar
+{
+    padding: .6em 1.3em;
+}
+.category-label
+{
+    vertical-align: middle;
+    padding-right: .5em;
+    width:120px;
 }
