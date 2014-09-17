@@ -20,10 +20,12 @@ and open the template in the editor.
     <body>
         <div id="example">
             <div class="leftImage"><img src="styles/header.png" height="110" ></div>
+            <div class="myName" id="myName" style="text-align: left;">Name: Roongtawan Laimek &nbsp;&nbsp;&nbsp;&nbsp; ID : 571012 &nbsp;&nbsp;&nbsp;&nbsp; Position : ODC1</div>
             <div id="grid"></div>
 
             <script type="text/x-kendo-template" id="template">
                 <div class="toolbar">
+                   
                     <label class="category-label">บุคคลที่ต้องการประเมิน:</label>
                     <input id="person" style="width: 150px"/>
                 </div>

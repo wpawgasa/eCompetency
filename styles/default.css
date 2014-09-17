@@ -123,3 +123,23 @@ span.k-tooltip {
     padding-right: .5em;
     width:120px;
 }
+.toolbar {
+    float: right;
+}
+
+.myName
+{
+    text-align: left;
+    height:30px;
+    background-color: white;
+    vertical-align: middle !important;
+    font-size: 14px;
+    padding-left: .5em;
+}
+
+.header-label
+{
+    vertical-align: middle;
+    padding-left: .5em;
+}
+
